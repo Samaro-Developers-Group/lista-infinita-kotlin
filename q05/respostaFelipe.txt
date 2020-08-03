@@ -1,0 +1,9 @@
+fun main() {
+   val numbersList = listOf(1, 1, 2, 3, 5, 8)
+   
+    val reversed = numbersList.reversed()
+    
+    println(reversed)
+    
+   
+}

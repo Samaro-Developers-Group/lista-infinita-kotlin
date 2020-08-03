@@ -3,7 +3,7 @@ fun main() {
    
     val nth = numbersList.elementAt(2) // here we set the numbers to get the value
     
-    print(nth)
+    println(nth)
     
    
 }

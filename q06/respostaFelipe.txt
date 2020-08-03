@@ -1,0 +1,15 @@
+fun main() {
+   val palindromeList = listOf(1, 2, 3, 2, 1)
+   
+    val isPalindrome: Boolean
+    
+   	val reversed = palindromeList.reversed()
+    
+    isPalindrome = if (palindromeList == reversed)
+    	true
+   	else
+    	false
+    
+    println(isPalindrome)
+    
+}
